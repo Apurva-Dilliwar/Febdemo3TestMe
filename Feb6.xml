@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name= "tester" value="Apurva"></parameter>
+  <parameter name= "location" value="Chhattisgarh"></parameter>
+  <parameter name="browser" value= "CRM"></parameter>
+    <classes>
+      <class name="hdc2demos.Feb6"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
